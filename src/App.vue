@@ -1,7 +1,9 @@
 <template>
   <!-- navigation -->
   <header>
-    <h1 class="text-3xl font-bold p-7 text-yellow-100 bg-yellow-500">
+    <h1
+      class="text-3xl font-bold font-freckle p-5 text-yellow-100 bg-yellow-500"
+    >
       siggi_ai
     </h1>
   </header>
@@ -9,22 +11,31 @@
   <!-- body -->
   <div class="bg-orange-500 h-screen w-full">
     <div class="flex flex-col items-center justify-center bg-orange-500">
-      <p class="text-2xl font-bold p-7 text-yellow-100 w-11/12">
-        web-development <br />+ design
+      <p class="text-2xl font-bold p-7 text-fuchsia-800 w-11/12">
+        web-development <br />+ design 🌳
       </p>
 
-      <p class="text-1xl p-7 text-yellow-100 w-3/4 md:w-2/4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut
-        expedita repudiandae quibusdam quod. Est quidem tenetur exercitationem
-        minus error, expedita totam, quis nobis aut deleniti eum praesentium
-        repudiandae dolore?
+      <h1 class="font-mono font-semibold text-xl subpixel-antialiased md:text-3xl p-7 -mb-8 text-yellow-200 w-4/5 md:w-2/4">
+        Hello World!
+      </h1>
+      <h2 class="text-sm font-mono md:text-2xl p-7 text-yellow-100 w-4/5 md:w-2/4">
+        I am <b class="text-yellow-300">siggi_ai</b>, a web-developer
+        based in Hamburg.
+      </h2>
+      <p class="text-sm font-mono md:text-2xl p-7 text-yellow-100 w-4/5 md:w-2/4">
+        And I love combining logic
+        and creative design, to make
+        <b class="text-lime-700">sustainable, accessible</b>, and
+        <b class="text-lime-700">user-friendly</b> websites
+         and applications.
       </p>
+
       <!-- triangle -->
       <div
-        class="w-0 h-0 border-l-[100px] border-l-transparent border-t-[150px] border-t-green-500 border-r-[100px] border-r-transparent"
+        class="mt-16 w-0 h-0 border-l-[100px] border-l-transparent border-t-[150px] border-t-green-500 border-r-[100px] border-r-transparent"
       ></div>
       <p class="text-yellow-100 text-2xl w-3/4">Vue.js</p>
-      <p class="text-1xl p-7 text-yellow-100 w-3/4 md:w-2/4">
+      <p class="text-1xl font-mono p-7 text-yellow-100 w-3/4 md:w-2/4">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
         voluptatibus nam doloremque eos velit praesentium repellendus ad nihil
         ratione, inventore non pariatur error quaerat molestias porro. Aliquid
@@ -38,7 +49,7 @@
           HTML CSS JavaScript
         </button>
       </div>
-      <p class="text-1xl p-7 text-yellow-100 w-3/4 md:w-2/4">
+      <p class="text-1xl font-mono p-7 text-yellow-100 w-3/4 md:w-2/4">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
         voluptatibus nam doloremque eos velit praesentium repellendus ad nihil
         ratione, inventore non pariatur error quaerat molestias porro. Aliquid
