@@ -20,6 +20,7 @@
       class="font-mono font-semibold text-xl subpixel-antialiased md:text-3xl p-7 -mb-8 text-yellow-200 w-4/5 md:w-2/4"
     >
       Hello World!
+      
     </h1>
     <h2
       class="text-xl font-mono md:text-2xl p-7 text-yellow-100 w-4/5 md:w-2/4"
@@ -59,7 +60,17 @@
     <p
       class="text-1xl md:text-2xl font-mono p-7 text-yellow-100 w-3/4 md:w-2/4"
     >
-      I use HTML, CSS, JavaScript, Vue.js and tailwind to build dynamic websites
+      I use HTML, CSS, JavaScript, Vue.js and tailwind to build 
+      <span class="text-red-500 mx-1 font-extrabold text-2xl relative inline-block stroke-current">
+        dynamic
+        <svg class="absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none">
+            <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
+        </svg>
+    </span>
+       
+      
+      websites
       and applications.
     </p>
     <!-- circle -->
