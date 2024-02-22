@@ -13,7 +13,7 @@
     <div
       class="sticky h-screen flex flex-col items-center justify-center bg-gradient-to-b from-orange-500 to-orange-700"
     >
-      <p class="text-2xl font-bold -mt-72 p-7 text-fuchsia-800 w-11/12">
+      <p class="text-2xl font-bold -mt-[550px] absolute p-7 text-fuchsia-800 w-11/12">
         web-development <br />+ design 🌳
       </p>
       <h1
