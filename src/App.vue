@@ -1,6 +1,6 @@
 <template>
 
-  <div class="w-screen">
+  <div class="w-full">
   <!-- navigation -->
     <header>
       <h1
