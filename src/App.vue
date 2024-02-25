@@ -138,9 +138,11 @@ export default {
   margin-top: 170px;
   margin-left: 180px;
 }
-* {
+
+/* really cool ghost-css to find error in layout!!! */
+/* * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}
+} */
 </style>
