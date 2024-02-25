@@ -1,8 +1,8 @@
 <template>
 
-  <div class="w-full">
+  <div class="">
   <!-- navigation -->
-    <header class="">
+    <header class="w-full">
       <h1
         class="text-3xl font-bold font-freckle p-5 text-yellow-100 bg-yellow-500"
       >
