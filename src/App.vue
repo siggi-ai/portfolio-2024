@@ -2,7 +2,7 @@
 
   <div class="w-full">
   <!-- navigation -->
-    <header>
+    <header class="">
       <h1
         class="text-3xl font-bold font-freckle p-5 text-yellow-100 bg-yellow-500"
       >
@@ -11,7 +11,7 @@
     </header>
     <!-- first slide -->
     <div
-      class="sticky h-screen flex flex-col items-center justify-center bg-gradient-to-b from-orange-500 to-orange-700"
+      class="sticky h-screen flex flex-col items-center justify-center bg-gradient-to-b from-orange-500 to-orange-700 w-full"
     >
       <p class="text-2xl font-bold -mt-[550px] absolute p-7 text-fuchsia-800 w-11/12">
         web-development <br />+ design 🌳
