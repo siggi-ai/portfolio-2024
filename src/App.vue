@@ -94,9 +94,9 @@
     <p class="text-5xl font-mono font-semibold mb-24">pRojEcts</p>
       <div class="flex flex-col">
       <a href="">
-        <div class="three-animation">
+<!--         <div class="three-animation">
           <Three />
-        </div>
+        </div> -->
       </a>
       </div>
     </div>
