@@ -18,7 +18,7 @@
           ><img src="/images/tailwind-icon.png" alt="Logo-tailwind" class="w-10 mt-2"
         /></a>&nbsp;&nbsp;
         <a href="https://hamburgcodingschool.com/"
-          ><img src="/images/hcs.png" alt="Logo-coding-school" class="w-20"
+          ><img src="/images/hcs.png" alt="Logo-coding-school" class="w-20 mt-1"
         /></a>
       </div>
       </h1>
@@ -28,11 +28,11 @@
     <div
       class="sticky h-screen flex flex-col items-center justify-center bg-gradient-to-b from-yellow-500 to-orange-600 w-screen"
     >
-      <p class="text-2xl font-bold -mt-[550px] absolute p-7 text-fuchsia-800 w-11/12">
-        web-development <br />+ design 🌳
-      </p>
+        <p class="text-2xl font-bold -mt-[550px] absolute p-7 text-fuchsia-800 w-11/12">
+          web-development <br />+ design 🌳
+        </p>
       <h1
-        class="font-mono font-semibold text-xl subpixel-antialiased md:text-3xl p-7 -mb-8 text-yellow-200 w-4/5 md:w-2/4"
+        class="font-mono font-semibold text-xl subpixel-antialiased md:text-3xl p-7 -mb-8 text-yellow-200 w-4/5 md:w-2/4 md:-mt-[150px]"
       >
         Hello World!
       </h1>
@@ -42,14 +42,15 @@
         I am
         <a href="https://github.com/siggi-ai"
           ><b class="text-yellow-300">siggi_ai</b></a
-        >, a web-developer based in Hamburg.<br />
+        >, a web-developer based in Hamburg.
+        <a href="mailto:smiley.face@gmx.de"  class="text-red-700 md:text-2xl font-mono font-bold">--> mail ✉️</a>
+        <br />
         <br />
         And I love combining logic and creative design, to make
-        <b class="text-green-400">sustainable</b>,
-        <b class="text-blue-800">accessible</b>, and
-        <b class="text-red-800">user-friendly</b> websites and applications.
-        
+         websites and applications.
+         
       </h2>
+      
       
     </div>
     <!-- second slide -->
