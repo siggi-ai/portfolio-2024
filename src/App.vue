@@ -4,14 +4,29 @@
   <!-- navigation -->
     <header class="">
       <h1
-        class="text-3xl font-bold font-freckle p-5 text-yellow-100 bg-yellow-500"
+        class="text-3xl font-bold font-freckle p-5 text-yellow-500 bg-yellow-800 flex flex-row"
       >
-        siggi_ai
+        <div>siggi_ai</div>&nbsp;&nbsp;&nbsp;
+        <div class="flex flex-row">
+        <a href="https://github.com/siggi-ai"
+          ><img src="/images/Github.png" alt="Logo-github" class="w-10"
+        /></a>&nbsp;&nbsp;
+        <a href="https://vuejs.org/"
+          ><img src="/images/Vue-Logo.png" alt="Logo-Vue.js" class="w-10 mt-1"
+        /></a>&nbsp;&nbsp;
+        <a href="https://tailwindcss.com/"
+          ><img src="/images/tailwind-icon.png" alt="Logo-tailwind" class="w-10 mt-2"
+        /></a>&nbsp;&nbsp;
+        <a href="https://hamburgcodingschool.com/"
+          ><img src="/images/hcs.png" alt="Logo-coding-school" class="w-20"
+        /></a>
+      </div>
       </h1>
+      
     </header>
     <!-- first slide -->
     <div
-      class="sticky h-screen flex flex-col items-center justify-center bg-gradient-to-b from-orange-500 to-orange-700 w-screen"
+      class="sticky h-screen flex flex-col items-center justify-center bg-gradient-to-b from-yellow-500 to-orange-600 w-screen"
     >
       <p class="text-2xl font-bold -mt-[550px] absolute p-7 text-fuchsia-800 w-11/12">
         web-development <br />+ design 🌳
@@ -33,7 +48,9 @@
         <b class="text-green-400">sustainable</b>,
         <b class="text-blue-800">accessible</b>, and
         <b class="text-red-800">user-friendly</b> websites and applications.
+        
       </h2>
+      
     </div>
     <!-- second slide -->
     <div
@@ -87,37 +104,7 @@
         </button>
       </div>
     </div>
-    <!-- third slide -->
-    <div
-      class="sticky top-0 h-screen flex flex-col items-center justify-center bg-black text-white"
-    >
-    <p class="text-5xl font-mono font-semibold mb-24">pRojEcts</p>
-      <div class="flex flex-col">
-      <a href="">
-<!--         <div class="three-animation">
-          <Three />
-        </div> -->
-      </a>
-      </div>
-    </div>
-    <!-- fourth slide -->
-    <div
-      class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gray-500"
-    >
-      <!-- LOGOS -->
-      <a href="https://github.com/siggi-ai"
-        ><img src="/images/Github.png" alt="Logo" class="w-20 mb-10"
-      /></a>
-      <a href="https://vuejs.org/"
-        ><img src="/images/Vue-Logo.png" alt="Logo" class="w-20 mb-10"
-      /></a>
-      <a href="https://tailwindcss.com/"
-        ><img src="/images/tailwind-icon.png" alt="Logo" class="w-20 mb-10"
-      /></a>
-      <a href="https://hamburgcodingschool.com/"
-        ><img src="/images/hcs.png" alt="Logo" class="w-44 mb-10"
-      /></a>
-    </div>
+    
     <footer class="w-full text-center bg-black text-teal-400 font-mono p-3">
       created with ♥ by siggi_ai in 2024
     </footer>
